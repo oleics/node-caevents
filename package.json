@@ -13,5 +13,5 @@
   "contributors": [
   ],
   "main": "./caevents",
-  "engines": {"node": ">= 0.4.x"},
+  "engines": {"node": ">= 0.4.x"}
 }
