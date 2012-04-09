@@ -65,7 +65,8 @@ As many as you want to.
 
 ### ToDo
 
-once() functionality.
+* once() functionality.
+* copy tests from nodejs
 
 MIT License
 -----------
