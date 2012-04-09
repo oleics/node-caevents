@@ -7,7 +7,7 @@ var util = require('util'),
 var defaultMaxListeners = 10;
 
 function CAEventEmitter() {
-  if(!(this instanceof CAEventEmitter)) return new CAEventEmitter(options);
+  if(!(this instanceof CAEventEmitter)) return new CAEventEmitter();
   
   this._anyEvents = [];
 }
