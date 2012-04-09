@@ -1,0 +1,17 @@
+{
+  "name": "caevents",
+  "version": "0.0.0",
+  "description": "'Catch all events' event emitter for node.js",
+  "author": {
+    "name": "Oliver Leics",
+    "email": "oliver.leics@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oleics/node-caevents.git"
+  },
+  "contributors": [
+  ],
+  "main": "./caevents",
+  "engines": {"node": ">= 0.4.x"},
+}
