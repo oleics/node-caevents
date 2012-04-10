@@ -1,6 +1,6 @@
 {
   "name": "caevents",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "'Catch all events' event emitter for node.js",
   "author": {
     "name": "Oliver Leics",
