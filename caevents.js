@@ -1,4 +1,3 @@
-
 exports.EventEmitter = CAEventEmitter;
 
 var util = require('util'),
@@ -22,7 +21,7 @@ CAEventEmitter.prototype.emit = function() {
 };
 
 CAEventEmitter.prototype.addListener = function() {
-  if(arguments.length === 1 && typeof arguments[0] instanceof Function) {
+  if(arguments.length === 1 && typeof arguments[0] === 'function') {
     this.onAny(arguments[0]);
   } else {
     EventEmitter.prototype.addListener.apply(this, arguments);
